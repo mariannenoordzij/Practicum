@@ -1,0 +1,7 @@
+/Users/Marianne/_ModProg/Practicum/Practicum/verKdagdag/bin/Debug/verKdagdag.exe
+/Users/Marianne/_ModProg/Practicum/Practicum/verKdagdag/bin/Debug/verKdagdag.pdb
+/Users/Marianne/_ModProg/Practicum/Practicum/verKdagdag/obj/x86/Debug/FittsLaw.csproj.CoreCompileInputs.cache
+/Users/Marianne/_ModProg/Practicum/Practicum/verKdagdag/obj/x86/Debug/verKdagdag.exe
+/Users/Marianne/_ModProg/Practicum/Practicum/verKdagdag/obj/x86/Debug/verKdagdag.pdb
+/Users/Marianne/_ModProg/Practicum/Practicum/FittsLaw/bin/Debug/verKdagdag.exe
+/Users/Marianne/_ModProg/Practicum/Practicum/FittsLaw/obj/x86/Debug/FittsLaw.csproj.CoreCompileInputs.cache
