@@ -29,8 +29,6 @@ namespace FittsLaw
             measureButton.Text = "measure";
             measureButton.Hide();
 
-            Random rndPos = new Random();
-
             this.Controls.Add(startButton);
             this.Controls.Add(measureButton);
 
@@ -51,11 +49,17 @@ namespace FittsLaw
             Console.WriteLine("Hallo");
             startButton.Hide();
             measureButton.Show();
+
+
+            Random rndPos = new Random();
+
+            Point pt = new Point(
+                    int.Parse(rndPos.Next(ClientSize.Width - measureButton.Width).ToString()),
+                    int.Parse(rndPos.Next(ClientSize.Height - measureButton.Width).ToString())
+                    );
+            measureButton.Location = pt;
         }
     }
-
-   
-
 
 
     class FittsLaw
