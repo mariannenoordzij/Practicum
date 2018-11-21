@@ -1,4 +1,8 @@
-﻿using System.Windows.Forms;
+﻿/* Practicumopgaven 1 Modelleren en Programmeren KI
+ * Marianne Noordzij en Shi Yi Butter
+ */
+
+using System.Windows.Forms;
 using System.Drawing;
 using System;
 
@@ -11,11 +15,13 @@ namespace FittsLaw
 
         public InvoerForm()
         {
+            // layout window
             this.Text = "Fitt's Law";
             this.BackColor = Color.White;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Size = new Size(Screen.PrimaryScreen.WorkingArea.Width, Screen.PrimaryScreen.WorkingArea.Height);
 
+            // layout startBsutton
             startButton = new Button();
             startButton.Size = new Size(80, 40);
             startButton.Text = "start";
@@ -25,6 +31,7 @@ namespace FittsLaw
             int y = ClientSize.Height / 2 - startButton.Height / 2;
             startButton.Location = new Point(x, y);
 
+            // layout measureButton
             measureButton = new Button();
             measureButton.Location = new Point(100, 30);
             measureButton.Size = new Size(80, 80);
@@ -38,18 +45,20 @@ namespace FittsLaw
             startButton.Click += StartButton_Click;
             measureButton.Click += MeasureButton_Click;
 
+
         }
 
         void MeasureButton_Click(object sender, EventArgs e)
         {
-            // Ticks
-            DateTime measureTime = DateTime.Now;
-            Int64 mt = measureTime.Ticks;
-            
             startButton.Show();
             measureButton.Hide();
 
+            //// Ticks
+            DateTime measureTime = DateTime.Now;
+            Int64 mt = measureTime.Ticks;
+            ////double mt_ms = mt / 10000;
 
+            // random size measureButton
             Random rndSize = new Random();
             measureButton.MinimumSize = new Size(25, 25);
             int MaxSize = 200;
@@ -59,6 +68,7 @@ namespace FittsLaw
                     int.Parse(rndMaxSize.ToString()));
             measureButton.Size = sz;
 
+            // random positie 
             Random rndPos = new Random();
             Point pt = new Point(
             int.Parse(rndPos.Next(ClientSize.Width - measureButton.Width).ToString()),
@@ -78,15 +88,11 @@ namespace FittsLaw
             // Berekening afstand
             double distance = (Math.Sqrt(Math.Pow(Math.Abs(mb_xpoint - sb_xpoint), 2) + Math.Pow(Math.Abs(mb_ypoint - sb_ypoint), 2) + Math.Pow(Math.Abs(z1 - z2), 2)));
 
-            // WriteLines
-            Console.WriteLine("Measuretijd: " + mt / 10000);
+            Console.WriteLine("Measuretijd: " + mt);
             Console.WriteLine("Width: " +  measureButton.Width);
             Console.WriteLine("X: " + mb_xpoint + ", Y: " + mb_ypoint);
             Console.WriteLine("Afstand = " + distance);
             Console.WriteLine("");
-
-
-
         }
 
 
@@ -105,6 +111,12 @@ namespace FittsLaw
             measureButton.Show();
 
         }
+
+        private Int64 reactietijd(Int64 mt, Int64 st)
+        {
+            return mt - st;
+        }
+
     }
 
 
