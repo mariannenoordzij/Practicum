@@ -11,3 +11,9 @@
 /Users/Marianne/_ModProg/Practicum/Practicum/FittsLawMarianne/obj/x86/Debug/FittsLaw.csproj.CoreCompileInputs.cache
 /Users/Marianne/_ModProg/Practicum/Practicum/FittsLawMarianne/obj/x86/Debug/verKdagdag.exe
 /Users/Marianne/_ModProg/Practicum/Practicum/FittsLawMarianne/obj/x86/Debug/verKdagdag.pdb
+/Users/Marianne/Practicum/01_FittsLaw/FittsLawMarianne/bin/Debug/verKdagdag.exe
+/Users/Marianne/Practicum/01_FittsLaw/FittsLawMarianne/bin/Debug/verKdagdag.pdb
+/Users/Marianne/Practicum/01_FittsLaw/FittsLawMarianne/obj/x86/Debug/FittsLaw.csprojAssemblyReference.cache
+/Users/Marianne/Practicum/01_FittsLaw/FittsLawMarianne/obj/x86/Debug/FittsLaw.csproj.CoreCompileInputs.cache
+/Users/Marianne/Practicum/01_FittsLaw/FittsLawMarianne/obj/x86/Debug/verKdagdag.exe
+/Users/Marianne/Practicum/01_FittsLaw/FittsLawMarianne/obj/x86/Debug/verKdagdag.pdb

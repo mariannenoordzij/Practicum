@@ -58,6 +58,16 @@ namespace FittsLaw
                     int.Parse(rndPos.Next(ClientSize.Height - measureButton.Width).ToString())
                     );
             measureButton.Location = pt;
+
+            Random size = new Random();
+
+            int randomsize = int.Parse(size.Next(500).ToString());
+
+            Size sz = new Size(
+                randomsize,
+                randomsize
+            );
+            measureButton.Size = sz;
         }
     }
 
