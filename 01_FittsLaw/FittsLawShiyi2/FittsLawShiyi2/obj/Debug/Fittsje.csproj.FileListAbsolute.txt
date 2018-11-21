@@ -1,0 +1,14 @@
+C:\Bsc KI\prgm\Practicum\Fittsje\Fittsje\bin\Debug\Fittsje.exe.config
+C:\Bsc KI\prgm\Practicum\Fittsje\Fittsje\bin\Debug\Fittsje.exe
+C:\Bsc KI\prgm\Practicum\Fittsje\Fittsje\bin\Debug\Fittsje.pdb
+C:\Bsc KI\prgm\Practicum\Fittsje\Fittsje\obj\Debug\Fittsje.csprojAssemblyReference.cache
+C:\Bsc KI\prgm\Practicum\Fittsje\Fittsje\obj\Debug\Fittsje.csproj.CoreCompileInputs.cache
+C:\Bsc KI\prgm\Practicum\Fittsje\Fittsje\obj\Debug\Fittsje.exe
+C:\Bsc KI\prgm\Practicum\Fittsje\Fittsje\obj\Debug\Fittsje.pdb
+C:\Bsc KI\prgm\mvs\Practicum_notgit\Fittsje\Fittsje\bin\Debug\Fittsje.exe.config
+C:\Bsc KI\prgm\mvs\Practicum_notgit\Fittsje\Fittsje\bin\Debug\Fittsje.exe
+C:\Bsc KI\prgm\mvs\Practicum_notgit\Fittsje\Fittsje\bin\Debug\Fittsje.pdb
+C:\Bsc KI\prgm\mvs\Practicum_notgit\Fittsje\Fittsje\obj\Debug\Fittsje.csprojAssemblyReference.cache
+C:\Bsc KI\prgm\mvs\Practicum_notgit\Fittsje\Fittsje\obj\Debug\Fittsje.csproj.CoreCompileInputs.cache
+C:\Bsc KI\prgm\mvs\Practicum_notgit\Fittsje\Fittsje\obj\Debug\Fittsje.exe
+C:\Bsc KI\prgm\mvs\Practicum_notgit\Fittsje\Fittsje\obj\Debug\Fittsje.pdb

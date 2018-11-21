@@ -1,0 +1,7 @@
+C:\Bsc KI\prgm\mvs\Practicum_notgit\FittsLawShiyi2\Fittsje\obj\Debug\FittsLawShiyi2.csprojAssemblyReference.cache
+C:\Bsc KI\prgm\mvs\Practicum_notgit\FittsLawShiyi2\Fittsje\obj\Debug\FittsLawShiyi2.csproj.CoreCompileInputs.cache
+C:\Bsc KI\prgm\mvs\Practicum_notgit\FittsLawShiyi2\Fittsje\obj\Debug\Fittsje.exe
+C:\Bsc KI\prgm\mvs\Practicum_notgit\FittsLawShiyi2\Fittsje\obj\Debug\Fittsje.pdb
+C:\Bsc KI\prgm\mvs\Practicum_notgit\FittsLawShiyi2\Fittsje\bin\Debug\Fittsje.exe.config
+C:\Bsc KI\prgm\mvs\Practicum_notgit\FittsLawShiyi2\Fittsje\bin\Debug\Fittsje.exe
+C:\Bsc KI\prgm\mvs\Practicum_notgit\FittsLawShiyi2\Fittsje\bin\Debug\Fittsje.pdb
