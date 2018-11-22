@@ -8,6 +8,8 @@ namespace FittsLaw
     {
         Button startButton;
         Button measureButton;
+        // declare measurebutton Time ticks here
+        // declare startButton Time ticks here
 
         public InvoerForm()
         {
@@ -41,6 +43,9 @@ namespace FittsLaw
             Console.WriteLine("Hallo2");
             startButton.Show();
             measureButton.Hide();
+            // get the ticks value here
+            // calculate the ID value
+
         }
 
 
@@ -49,6 +54,7 @@ namespace FittsLaw
             Console.WriteLine("Hallo");
             startButton.Hide();
             measureButton.Show();
+            // get the ticks value here
 
 
             Random rndPos = new Random();
