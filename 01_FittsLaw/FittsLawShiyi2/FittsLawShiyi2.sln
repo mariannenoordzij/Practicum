@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.102
+VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FittsLawShiyi2", "Fittsje\FittsLawShiyi2.csproj", "{2C7B49E9-F7FF-4CBF-A6D6-3D9DE5BE0341}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FittsLawShiyi2", "FittsLawShiyi2\FittsLawShiyi2.csproj", "{2C7B49E9-F7FF-4CBF-A6D6-3D9DE5BE0341}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FCE333B7-C25C-4F73-AF14-B11F4B8ED5B1}
+		SolutionGuid = {A856CB29-6736-4581-9A67-097571F2F15C}
 	EndGlobalSection
 EndGlobal
