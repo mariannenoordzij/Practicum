@@ -1,0 +1,7 @@
+C:\Bsc KI\prgm\mvs\Practicum_notgit\Mandelbrot_Shiyi1\Mandelbrot_Shiyi1\bin\Debug\Mandelbrot_Shiyi1.exe.config
+C:\Bsc KI\prgm\mvs\Practicum_notgit\Mandelbrot_Shiyi1\Mandelbrot_Shiyi1\bin\Debug\Mandelbrot_Shiyi1.exe
+C:\Bsc KI\prgm\mvs\Practicum_notgit\Mandelbrot_Shiyi1\Mandelbrot_Shiyi1\bin\Debug\Mandelbrot_Shiyi1.pdb
+C:\Bsc KI\prgm\mvs\Practicum_notgit\Mandelbrot_Shiyi1\Mandelbrot_Shiyi1\obj\Debug\Mandelbrot_Shiyi1.csprojAssemblyReference.cache
+C:\Bsc KI\prgm\mvs\Practicum_notgit\Mandelbrot_Shiyi1\Mandelbrot_Shiyi1\obj\Debug\Mandelbrot_Shiyi1.csproj.CoreCompileInputs.cache
+C:\Bsc KI\prgm\mvs\Practicum_notgit\Mandelbrot_Shiyi1\Mandelbrot_Shiyi1\obj\Debug\Mandelbrot_Shiyi1.exe
+C:\Bsc KI\prgm\mvs\Practicum_notgit\Mandelbrot_Shiyi1\Mandelbrot_Shiyi1\obj\Debug\Mandelbrot_Shiyi1.pdb
