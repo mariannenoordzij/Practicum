@@ -1,0 +1,7 @@
+/Users/Marianne/Practicum/01_FittsLaw/FittsLawShiyi2/FittsLawShiyi2/bin/Debug/Fittsje.exe.config
+/Users/Marianne/Practicum/01_FittsLaw/FittsLawShiyi2/FittsLawShiyi2/bin/Debug/Fittsje.exe
+/Users/Marianne/Practicum/01_FittsLaw/FittsLawShiyi2/FittsLawShiyi2/bin/Debug/Fittsje.pdb
+/Users/Marianne/Practicum/01_FittsLaw/FittsLawShiyi2/FittsLawShiyi2/obj/Debug/FittsLawShiyi2.csprojAssemblyReference.cache
+/Users/Marianne/Practicum/01_FittsLaw/FittsLawShiyi2/FittsLawShiyi2/obj/Debug/FittsLawShiyi2.csproj.CoreCompileInputs.cache
+/Users/Marianne/Practicum/01_FittsLaw/FittsLawShiyi2/FittsLawShiyi2/obj/Debug/Fittsje.exe
+/Users/Marianne/Practicum/01_FittsLaw/FittsLawShiyi2/FittsLawShiyi2/obj/Debug/Fittsje.pdb

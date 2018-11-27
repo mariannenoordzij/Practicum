@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{E21BAF80-283A-43C6-98E5-A4240BF163E4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mandelbrot_Marianne/Program.cs">
+    <Files>
+      <File FileName="Mandelbrot_Marianne/Program.cs" Line="31" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Mandelbrot__Marianne PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

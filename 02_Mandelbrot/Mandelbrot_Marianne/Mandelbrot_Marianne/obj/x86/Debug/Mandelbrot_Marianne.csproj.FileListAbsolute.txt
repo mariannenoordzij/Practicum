@@ -1,0 +1,6 @@
+/Users/Marianne/Practicum/02_Mandelbrot/Mandelbrot_Marianne/Mandelbrot_Marianne/obj/x86/Debug/Mandelbrot_Marianne.csprojAssemblyReference.cache
+/Users/Marianne/Practicum/02_Mandelbrot/Mandelbrot_Marianne/Mandelbrot_Marianne/obj/x86/Debug/Mandelbrot_Marianne.csproj.CoreCompileInputs.cache
+/Users/Marianne/Practicum/02_Mandelbrot/Mandelbrot_Marianne/Mandelbrot_Marianne/bin/Debug/Mandelbrot_Marianne.exe
+/Users/Marianne/Practicum/02_Mandelbrot/Mandelbrot_Marianne/Mandelbrot_Marianne/bin/Debug/Mandelbrot_Marianne.pdb
+/Users/Marianne/Practicum/02_Mandelbrot/Mandelbrot_Marianne/Mandelbrot_Marianne/obj/x86/Debug/Mandelbrot_Marianne.exe
+/Users/Marianne/Practicum/02_Mandelbrot/Mandelbrot_Marianne/Mandelbrot_Marianne/obj/x86/Debug/Mandelbrot_Marianne.pdb
