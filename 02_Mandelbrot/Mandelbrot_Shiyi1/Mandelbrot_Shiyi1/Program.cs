@@ -12,6 +12,8 @@ namespace Mandelbrot
     class InvoerForm : Form
     {
         Button button;
+        private TextBox middenX;
+        private TextBox middenY;
 
         public InvoerForm()
         {
@@ -45,16 +47,16 @@ namespace Mandelbrot
             labelMax.Location = new Point(200, 40);
 
             // Layout textbox midden X
-            TextBox middenX = new TextBox();
-            middenX.Name = "textboxX";
-            middenX.AutoSize = true;
-            middenX.Location = new Point(80, 13);
+            this.middenX = new TextBox();
+            this.middenX.Name = "textboxX";
+            this.middenX.AutoSize = true;
+            this.middenX.Location = new Point(80, 13);
 
             // Layout textbox midden Y
-            TextBox middenY = new TextBox();
-            middenY.Name = "textboxY";
-            middenY.AutoSize = true;
-            middenY.Location = new Point(80, 38);
+            this.middenY = new TextBox();
+            this.middenY.Name = "textboxY";
+            this.middenY.AutoSize = true;
+            this.middenY.Location = new Point(80, 38);
 
             // Layout textbox schaal
             TextBox txtSchaal = new TextBox();
@@ -90,8 +92,8 @@ namespace Mandelbrot
             this.Controls.Add(labelY);
             this.Controls.Add(labelSchaal);
             this.Controls.Add(labelMax);
-            this.Controls.Add(middenX);
-            this.Controls.Add(middenY);
+            this.Controls.Add(this.middenX);
+            this.Controls.Add(this.middenY);
             this.Controls.Add(txtSchaal);
             this.Controls.Add(txtMax);
             this.Controls.Add(button);
@@ -99,6 +101,21 @@ namespace Mandelbrot
 
             button.Click += Button_Click;
         }
+
+        private void functie(object sender, EventArgs e)
+        {
+            double x = double.Parse(middenX.Text);
+            double y = double.Parse(middenY.Text);
+            int a = 0;
+            int b = 0;
+            const int constA = 0;
+            const int constB = 0;
+            double uitkomstX = a * a - b * b + x;
+            double uitkomstY = 2 * a * b + y;
+            double afstand = Math.Sqrt(Math.Pow(uitkomstX, 2) + Math.Pow(uitkomstY, 2));
+
+        }
+
 
         void Button_Click(object sender, EventArgs e)
         {
@@ -116,6 +133,6 @@ namespace Mandelbrot
             scherm = new InvoerForm();
             Application.Run(scherm);
         }
-        
+
     }
 }
