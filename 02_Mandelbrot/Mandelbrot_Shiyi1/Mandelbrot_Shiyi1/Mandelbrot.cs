@@ -15,7 +15,6 @@ namespace Mandelbrot
         private TextBox middenX;
         private TextBox middenY;
         private TextBox txtMax;
-        private Label resultaat;
 
         public InvoerForm()
         {
@@ -101,19 +100,17 @@ namespace Mandelbrot
             this.Controls.Add(button);
             this.Controls.Add(listbox);
 
-
             button.Click += Button_Click;
         }
 
-        void Button_Click(object sender, EventArgs e)
+        private int bereken(double x, double y)
         {
-            double x = double.Parse(middenX.Text);
-            double y = double.Parse(middenY.Text);
+
             double a = 0;
             double b = 0;
             int max = int.Parse(txtMax.Text);
             int i;
-            for (i = 1; i <= max; i++)
+            for (i = 0; i < max; i++)
             {
                 double uitkomstX = a * a - b * b + x;
                 double uitkomstY = 2 * a * b + y;
@@ -124,11 +121,18 @@ namespace Mandelbrot
                 b = y;
                 if (afstand > 2)
                 {
-                    Console.WriteLine("Afstand: " + Math.Round(afstand, 2) + "\n" + "Mandelgetal: " + i + "\n \n");
-                    break;
+                    return i;
                 }
-                Console.WriteLine("Afstand: " + Math.Round(afstand, 2) + "\n" + "Mandelgetal: " + i + "\n \n");
             }
+            return i;
+        }
+
+        void Button_Click(object sender, EventArgs e)
+        {
+            double x = double.Parse(middenX.Text);
+            double y = double.Parse(middenY.Text);
+            int result = bereken(x, y);
+            Console.WriteLine(result.ToString());
         }
     }
 
